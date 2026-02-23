@@ -1,0 +1,19 @@
+# Environments
+.env
+.env.local
+
+# Build outputs
+out/
+cache/
+broadcast/
+
+# Dependencies
+lib/
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

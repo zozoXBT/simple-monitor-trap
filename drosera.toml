@@ -1,0 +1,17 @@
+ethereum_rpc = "https://rpc.hoodi.ethpandaops.io/"
+drosera_rpc = "https://relay.hoodi.drosera.io"
+eth_chain_id = 560048
+drosera_address = "0x91cB447BaFc6e0EA0F4Fe056F5a9b1F14bb06e5D"
+
+[traps]
+[traps.simple_monitor]
+path = "out/SimpleTrap.sol/SimpleTrap.json"
+response_contract = "0xb112c48E20D1Ab81a0B3C20e26053fA5443e9173"
+response_function = "respond()"
+cooldown_period_blocks = 33
+min_number_of_operators = 1
+max_number_of_operators = 3
+block_sample_size = 1
+private_trap = true
+whitelist = ["0xB13147F9cc145A41C24c3c1ab3f0aa5cB40c1767"]
+address = "0x89e37a555Ef6fDb08E731B5f23B0e30927B3da75"
